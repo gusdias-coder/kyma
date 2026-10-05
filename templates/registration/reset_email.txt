@@ -1,0 +1,3 @@
+Você solicitou a recuperação de acesso à KYMA.
+Abra {{ protocol }}://{{ domain }}{% url 'password_reset_confirm' uidb64=uid token=token %}
+Se não fez esta solicitação, ignore este e-mail.

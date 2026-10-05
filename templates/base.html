@@ -1,0 +1,16 @@
+{% load static shop_tags %}<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="KYMA — diferentes formas de vestir. Descubra coleções, explore seu estilo e encontre sua próxima expressão.">
+<meta name="theme-color" content="#0b0b0b"><title>{% block title %}KYMA — Seu estilo. Sua presença.{% endblock %}</title>
+<link rel="icon" href="{% static 'images/mark.svg' %}"><link rel="stylesheet" href="{% static 'store.css' %}">
+<script src="{% static 'store.js' %}" defer></script><link rel="stylesheet" href="{% static 'navigation.css' %}"><script src="{% static 'navigation.js' %}" defer></script>{% block extra_head %}{% endblock %}</head>
+<body data-analytics="{% if analytics_enabled %}yes{% endif %}"><a class="skip" href="#main">Ir para o conteúdo</a>
+<div class="announcement">{{ store.announcement|default:'KYMA — encontre sua próxima expressão' }}</div>
+{% include 'navigation.html' %}
+{% if demo_mode %}<div class="demo-note">Ambiente demonstrativo · fotografias de referência · nenhum pagamento real</div>{% endif %}
+{% if messages %}<div class="messages" role="status">{% for message in messages %}<p class="{{ message.tags }}">{{ message }}</p>{% endfor %}</div>{% endif %}
+<main id="main">{% block content %}{% endblock %}</main>
+<footer><div class="footer-grid wrap"><div><a class="wordmark light" href="{% url 'home' %}">KYMA</a><p>Diferentes estilos.<br>A mesma liberdade de ser.</p></div><div><h3>Explore</h3><a href="{% url 'catalog' %}">Todos os produtos</a><a href="{% url 'collections' %}">Coleções</a><a href="{% url 'page' 'sobre' %}">Universo KYMA</a></div><div><h3>Podemos ajudar?</h3><a href="{% url 'page' 'entrega' %}">Entrega</a><a href="{% url 'page' 'trocas' %}">Trocas e devoluções</a><a href="{% url 'page' 'contato' %}">Contato</a></div><div><h3>Sua conta</h3><a href="{% url 'account' %}">Meus pedidos</a><a href="{% url 'login' %}">Entrar</a><a href="{% url 'page' 'privacidade' %}">Privacidade</a>{% if analytics_enabled %}<button class="text-button" id="analytics-choice">Preferências de análise</button>{% endif %}</div></div>
+<div class="footer-bottom wrap"><span>© {% now 'Y' %} KYMA</span><span>{{ store.company_details|default:'Identidade em movimento.' }}</span></div></footer>
+<form hidden id="csrf-helper">{% csrf_token %}</form>
+</body></html>
