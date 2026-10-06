@@ -1,0 +1,18 @@
+{
+  "tests": [
+    "Reduced motion does not request or insert the video",
+    "Search works from the project subdirectory",
+    "URL filters survive reload",
+    "Size required, add-to-bag drawer and Escape work",
+    "Favorites persist across pages",
+    "Coupon, quantity and bag persistence work",
+    "Demonstration checkout is explicit and does not collect sensitive data",
+    "Unknown product has an intentional empty/error page",
+    "Search text is escaped rather than executed",
+    "11 key pages inspected at 320, 390, 768 and 1440 pixels",
+    "Native dialog restores keyboard focus after Escape",
+    "Video loads, plays and visible pause control stops it"
+  ],
+  "errors": [],
+  "broken": []
+}

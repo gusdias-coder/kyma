@@ -1,0 +1,76 @@
+[
+  {
+    "file": "index.html",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "nodes": 1
+      },
+      {
+        "id": "color-contrast",
+        "nodes": 27
+      }
+    ]
+  },
+  {
+    "file": "catalogo.html",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "file": "produto.html?id=moletom-presenca",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "file": "sacola.html",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "file": "checkout.html",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "file": "colecoes.html",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 16
+      }
+    ]
+  },
+  {
+    "file": "universo-kyma.html",
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 2
+      }
+    ]
+  },
+  {
+    "file": "ajuda.html",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "file": "conta.html",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "file": "privacidade.html",
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "file": "termos.html",
+    "violations": [],
+    "incomplete": []
+  }
+]

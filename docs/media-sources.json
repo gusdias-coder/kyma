@@ -1,0 +1,58 @@
+[
+  {
+    "file": "assets/images/hoodie.jpg",
+    "author": "Monstera Production",
+    "source": "https://www.pexels.com/photo/black-man-in-hoodie-and-pants-in-studio-6311506/",
+    "license": "https://www.pexels.com/license/",
+    "bytes": 38321
+  },
+  {
+    "file": "assets/images/hoodie-detail.jpg",
+    "author": "Monstera Production",
+    "source": "https://www.pexels.com/photo/serious-black-man-putting-on-hood-6311621/",
+    "license": "https://www.pexels.com/license/",
+    "bytes": 87546
+  },
+  {
+    "file": "assets/images/tailoring.jpg",
+    "author": "Ahmed Abouelhassan",
+    "source": "https://www.pexels.com/photo/a-woman-in-black-blazer-11488972/",
+    "license": "https://www.pexels.com/license/",
+    "bytes": 106989
+  },
+  {
+    "file": "assets/images/tailoring-detail.jpg",
+    "author": "Ahmed Abouelhassan",
+    "source": "https://www.pexels.com/photo/a-woman-in-a-black-blazer-11488968/",
+    "license": "https://www.pexels.com/license/",
+    "bytes": 118004
+  },
+  {
+    "file": "assets/images/denim.jpg",
+    "author": "Huy Nguyễn",
+    "source": "https://www.pexels.com/photo/a-young-woman-in-jeans-and-a-denim-jacket-28174872/",
+    "license": "https://www.pexels.com/license/",
+    "bytes": 162724
+  },
+  {
+    "file": "assets/images/jacket.jpg",
+    "author": "Yemi Wallington",
+    "source": "https://www.pexels.com/photo/studio-shot-of-model-in-denim-jacket-18567265/",
+    "license": "https://www.pexels.com/license/",
+    "bytes": 77382
+  },
+  {
+    "file": "assets/images/shirt.jpg",
+    "author": "Arina Krasnikova",
+    "source": "https://www.pexels.com/photo/woman-in-white-button-down-shirt-7752585/",
+    "license": "https://www.pexels.com/license/",
+    "bytes": 60218
+  },
+  {
+    "file": "assets/images/graphic.jpg",
+    "author": "weoull",
+    "source": "https://www.pexels.com/photo/trendy-urban-fashion-editorial-shot-33755033/",
+    "license": "https://www.pexels.com/license/",
+    "bytes": 114161
+  }
+]
